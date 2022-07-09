@@ -1,0 +1,17 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+ 
+ #countdown365_shortcode .title{
+    font-weight: bold;
+ }
+
+ #countdown365_shortcode .flip-clock-wrapper{  
+    margin: 0em;
+    padding: 10px;
+ }
+ 
+.woocommerce .products ul, .woocommerce ul.products {
+    clear: none !important;
+}

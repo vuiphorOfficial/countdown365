@@ -1,0 +1,96 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+ 
+
+ .wp-picker-container .wp-color-result.button {
+    min-height: 30px;
+    margin: 0 6px 6px 0;
+    padding: 0 0 0 30px;
+    font-size: 11px;
+  }
+
+  .wp-color-result-text {
+    background: #f6f7f7;
+    border-radius: 0 2px 2px 0;
+    border-left: 1px solid #c3c4c7;
+    color: #50575e;
+    display: block;
+    line-height: 2.54545455;
+    padding: 0 6px;
+    text-align: center;
+}
+
+/************ Block **********/ 
+.countdown365_shortcode_block{
+  border: 1px solid #eee;
+  padding: 10px;
+}
+
+.countdown365_shortcode_block .countdown365_sb_label{
+    font-size: 12px;
+    font-family: 'Open Sans';
+    margin-top: 10px;
+    padding: 10px 0px;
+}
+
+.editor-styles-wrapper .countdown365_shortcode_block  input[type="text"],
+.editor-styles-wrapper .countdown365_shortcode_block  input[type="number"],
+.editor-styles-wrapper .countdown365_shortcode_block  select,
+.editor-styles-wrapper .countdown365_shortcode_block  textarea {
+    padding: 5px 6px;
+    width: 100% !important;
+}
+
+.wp-core-ui .countdown365_shortcode_block  select{
+  max-width: 100% !important;
+}
+
+/************ Product Meta **********/
+
+.countdown365_metadata .label{
+  display: block;
+  clear: both;
+  padding: 10px 0px;
+  font-size: 12px;
+  font-weight: bold;
+  font-family: sans-serif;
+  color: #472;
+}
+
+.countdown365_metadata .countdown365_meta_in input,
+.countdown365_metadata .countdown365_meta_in select{
+  font-size: 12px;
+  font-weight: normal;
+  font-family: sans-serif;
+}
+
+/********** option page **********/
+
+.countdown365_settings_header_col1{
+    padding: 19px; background-color: #3c434a; display: inline-block;font-size: 20px; color: #FFF;
+} 
+
+.countdown365_settings_header_col2{
+    padding: 20px; background-color: #a7aaad; display: inline-block; font-weight: 700;  font-size: 20px; color: #f6f7f7;
+} 
+
+.countdown365_settings_header_col3{
+    padding: 19px; background-color: #f0f0f1; display: inline-block; margin-bottom: 2em; font-size: 20px;
+} 
+
+
+.countdown365_settings_header_col1 .dashicons, .countdown365_settings_header_col1 .dashicons-before:before { 
+  font-size: 30px; line-height: unset;
+
+}
+
+.countdown365_settings_header_col3 a{
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.countdown365_settings_header_col3:hover{
+  background: #c3c4c7;
+}
